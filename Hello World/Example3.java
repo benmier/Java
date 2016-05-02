@@ -1,7 +1,6 @@
 class Example3 {
     public static void main(String args[]) {
-        int
-        var; // this declares an int variable
+        int var; // this declares an int variable
         double x; // this declares a floating-point variable
         var = 10; // assign var the value 10
         x = 10.0; // assign x the value 10.0
