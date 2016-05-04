@@ -1,4 +1,3 @@
-listing 1
 // Average 10 double values. 
 class Avg { 
   public static void main(String args[]) { 
@@ -13,7 +12,6 @@ class Avg {
   } 
 }
 
-listing 2
 // Demonstrate the Bubble sort with strings.  
 class StrBubble {   
   public static void main(String args[]) {   
@@ -52,7 +50,6 @@ class StrBubble {
   }  
 }
 
-listing 3
 // An improved XOR cipher. 
 class Encode {   
   public static void main(String args[]) {  
@@ -90,7 +87,6 @@ class Encode {
   }  
 }
 
-listing 4
 // Find the minimum and maximum values in an array. 
 class MinMax {  
   public static void main(String args[]) {  
@@ -118,4 +114,3 @@ class MinMax {
   }  
 }
 
-
