@@ -2,7 +2,7 @@
 class Encode {
     public static void main(String args[]) {
         String msg = "Ben Mier", encmsg = "", decmsg = "";
-        int key = 88;
+        int key = 3;
         System.out.println("Original message: "+msg);
         // encode the message
         for (int i = 0; i < msg.length(); i++)
