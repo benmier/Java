@@ -1,3 +1,5 @@
+import java.util.concurrent.ThreadLocalRandom;
+
 class Quicksort {
 // Set up a call to the actual Quicksort method.
 	static void qsort(int items[]) {
@@ -25,16 +27,18 @@ class Quicksort {
 }
 class QSDemo {
 	public static void main(String args[]) {
-		int a[] = { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+		int a[] = new int[100000000];
 		int i;
+		for(i=0; i<100000000; i++)
+			a[i] = ThreadLocalRandom.current().nextInt(0,100000001);
 		System.out.print("Original array: ");
-		for (i = 0; i < a.length; i++)
-			System.out.print(a[i]);
+		for (i = 0; i < 20; i++)
+			System.out.print(a[i]+", ");
 		System.out.println();
 // now, sort the array
 		Quicksort.qsort(a);
 		System.out.print("Sorted array: ");
-		for (i = 0; i < a.length; i++)
-			System.out.print(a[i]);
+		for (i = 0; i < 20; i++)
+			System.out.print(a[i]+", ");
 	}
 }
