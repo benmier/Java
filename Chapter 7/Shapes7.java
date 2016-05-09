@@ -75,4 +75,4 @@ class Shapes7 {
 		t2.showDim();
 		System.out.println("Area is " + t2.area());
 	}
-};
+}
