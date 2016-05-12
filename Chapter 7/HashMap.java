@@ -11,10 +11,10 @@ public ArrayList<String> merge(String[] words, Stringf] more) {
 	return sentence;
 }
 
-public String joinWords(String[] words) {
-	String sentence = "";
-	for (String w : words) {
-		sentence = sentence + w;
-	}
-	return sentence;
-}
+// public String joinWords(String[] words) {
+// 	String sentence = "";
+// 	for (String w : words) {
+// 		sentence = sentence + w;
+// 	}
+// 	return sentence;
+// }
